@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  /* background-color: black!important; */
+  background-image: linear-gradient(
+    to bottom right,
+    #000000,
+    #000d1a,
+    #001a33,
+    #004d99,
+    #3399ff
+  );
+  height: 95.5vh;
+  color: snow;
+  font-family: 'Press Start 2P', cursive;
+}

@@ -1,0 +1,11 @@
+<div class="container">
+  <section id="get-file">
+    <h1>File Upload</h1>
+    <input type="file" (change)="onFileSelected($event)">
+    <button type="button" (click)="onUpload($event)" >Upload</button>
+  </section>
+  <section id="file-convert">
+    <h1>File Converted to base64</h1>
+    <textarea #filebase64TextArea name="filebase64" id="filebase64" cols="30" rows="10">{{SelectedFileBase64}}</textarea>
+  </section>
+</div>
